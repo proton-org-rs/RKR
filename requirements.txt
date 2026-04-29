@@ -1,0 +1,4 @@
+pyserial==3.5
+keyboard==0.13.5
+opencv-python==4.13.0.92
+mediapipe==0.10.13
