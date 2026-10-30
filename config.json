@@ -1,0 +1,17 @@
+{
+  "motor_signs": [1, 1],
+  "steps_per_revolution": [1600, 1600],
+  "limits": [[-560, 560], [-560, 560]],
+  "jog_speed": 150,
+  "jog_segment_steps": 15,
+  "A": 0.25,
+  "curl_speed": 100,
+  "curl_left_target": [200, -50],
+  "curl_right_target": [-50, 200],
+  "preset_speed": 100,
+  "presets": {
+    "1": {"name": "Side-to-side sweep", "repeat": 2, "dwell_ms": 300, "waypoints": [[100, -25], [-25, 100], [0, 0]]},
+    "2": {"name": "Left curl and return", "repeat": 1, "dwell_ms": 700, "waypoints": [[100, -25], [200, -50], [100, -25], [0, 0]]},
+    "3": {"name": "Custom two-cable sequence", "repeat": 1, "dwell_ms": 500, "waypoints": [[30, 30], [60, 15], [15, 60], [0, 0]]}
+  }
+}
