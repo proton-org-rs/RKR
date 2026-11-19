@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "port": "/dev/ttyUSB0",
+  "motors": [
+    {
+      "name": "Cable 1",
+      "direction": -1,
+      "min_steps": -15000,
+      "max_steps": 15000
+    },
+    {
+      "name": "Cable 2",
+      "direction": 1,
+      "min_steps": -15000,
+      "max_steps": 15000
+    },
+    {
+      "name": "Cable 3",
+      "direction": -1,
+      "min_steps": -15000,
+      "max_steps": 15000
+    }
+  ],
+  "joystick": {
+    "speed": 400.0,
+    "deadzone": 0.08,
+    "rotation_degrees": 0.0,
+    "takeup_gains": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "release_gains": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "motion": {
+    "pose_speed": 150.0,
+    "jog_speed": 80.0,
+    "timeout_s": 45.0
+  },
+  "dance": {
+    "amplitude_steps": 200,
+    "speed": 220.0,
+    "cycles": 2
+  },
+  "poses": {
+    "curl_1": null,
+    "curl_2": null,
+    "curl_3": null,
+    "curl_12": null,
+    "curl_23": null,
+    "curl_31": null,
+    "release": null
+  }
+}
